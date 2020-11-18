@@ -57,6 +57,7 @@ export default {
 
         onLogout() {
             this.logout();
+            this.$router.push({ path: "/" });
         },
     },
 };
